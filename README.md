@@ -23,10 +23,7 @@ The following screenshots are examples of the note saver app with existing notes
 
 This screenshot shows the ability for the user to add and save a new note by clicking the save icon at the top right.
 
-
-![README1](https://user-images.githubusercontent.com/120453099/224250549-662eb026-6509-4087-ad8f-762b2308038d.png)
-
-![README2](https://user-images.githubusercontent.com/120453099/224250667-c8f17cd8-426b-4bc9-a291-661c1dd2558a.png)
+![Note-Saver2](https://user-images.githubusercontent.com/120453099/231078392-3c8d3850-35ec-4b3c-92b5-888cd5d16736.png)
 
 ## License
 
