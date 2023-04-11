@@ -28,7 +28,3 @@ This screenshot shows the ability for the user to add and save a new note by cli
 ## License
 
 In this application, I used the MIT Licence
-
-## Features
-
-Some features from this application is the license badge. A badge will show up at the top of the readme file to demonstrate the license chosen by the user.
