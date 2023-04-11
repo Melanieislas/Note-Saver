@@ -17,7 +17,7 @@ This is the link to the functional application.
 
 (https://drive.google.com/file/d/1TGETVDekcwL99hYbKu4TnXHgZC1aUmD6/view)
 
-The following screenshots are examples of the note saver app with existing notes.
+The following screenshot is an example of the note saver app with existing notes.
 
 ![Note-Saver1](https://user-images.githubusercontent.com/120453099/231078116-df1bc7ae-837f-468b-b46b-db6eb9b7d283.png)
 
