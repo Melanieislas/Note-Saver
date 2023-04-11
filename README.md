@@ -13,9 +13,9 @@ To install and run this application, you just click the link that was deployed f
 
 ## Usage
 
-This is the link to the functional application.
+This is the link to the functional application deployed on heroku.
 
-(https://drive.google.com/file/d/1TGETVDekcwL99hYbKu4TnXHgZC1aUmD6/view)
+https://salty-temple-66833.herokuapp.com/notes
 
 The following screenshot is an example of the note saver app with existing notes.
 
