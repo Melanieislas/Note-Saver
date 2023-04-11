@@ -57,12 +57,6 @@ app.get('/api/notes', (req, res) => {
     readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 });
 
-/*
-app.get('/api/notes', (req, res) => {
-    console.info(`${req.method} request received for a new note`);
-    res.status(200).json(dbJson);
-});*/
-
 app.post('/api/notes', (req, res) => {
     console.info(`${req.method} request received to add a note`);
 
@@ -72,46 +66,15 @@ app.post('/api/notes', (req, res) => {
         const newNote = {
             title,
             text,
-            note_id: uuid(),
+            id: uuid(),
         };
 
         readAndAppend(newNote, './db/db.json');
+
         res.json(`Note added`);
     } else {
         res.errored('Error');
     }
-        /*
-
-        fs.readFile('./db/db.json', 'utf8', (err, data) => {
-            if (err) {
-                console.log(err);
-            }else {
-                const parsedNotes = JSON.parse(data);
-
-                parsedNotes.push(newNote);
-
-                fs.writeFile('./db/db.json', JSON.stringify(parsedNotes, null, 4),
-                (writeErr) =>
-                    writeErr
-                ? console.error(writeErr)
-                : console.info('Successfully updated notes!')
-                );
-            }
-        
-        });
-
-        const response = {
-            status: 'success',
-            body: newNote,
-        };
-
-        console.log(response);
-        res.status(201).json(response);
-
-    } else {
-        res.status(500).json('Error in adding note');
-
-    }*/
 
 });
 

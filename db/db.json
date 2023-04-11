@@ -1,35 +1,17 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text"
+        "title": "Chores",
+        "text": "Take out the trash on wednesday",
+        "id": "1cd6"
     },
     {
-        "title": "Test Title",
-        "text": "Test text"
+        "title": "Go to interview",
+        "text": "Interview scheduled for Thurdsay at 10:30 A.M.",
+        "id": "13a0"
     },
     {
-        "title": "f",
-        "text": "f",
-        "note_id": "6520"
-    },
-    {
-        "title": "k",
-        "text": "o",
-        "note_id": "0b9b"
-    },
-    {
-        "title": "k",
-        "text": "kkqkqk",
-        "note_id": "3392"
-    },
-    {
-        "title": " fairer",
-        "text": "e",
-        "note_id": "9ebc"
-    },
-    {
-        "title": "fdgsdfgsdfg",
-        "text": "sfgsdfg",
-        "note_id": "1023"
+        "title": "Birthday Celebration",
+        "text": "Plan birthday party for Steph",
+        "id": "9166"
     }
 ]
